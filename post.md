@@ -6,9 +6,9 @@ Even so, for the past couple of years I’ve been making apps and have published
 
 I started making apps by hand-coding HTML, CSS and JS and using PhoneGap Build to deploy them to Android and iOS.
 
-I just want to make a note here about platforms. I build for Android and iOS and not Windows Mobile only because when I started the information about the requirements was anything but clear. It was so frustrating trying to find out what I needed and so I just gave up. I believe this affected other people and it was just bad strategy by MicroSoft.
+I just want to make a note here about platforms. I build for Android and iOS and not Windows Mobile only because when I started the information about the requirements was anything but clear. It was so frustrating trying to find out what I needed and so I just gave up. I believe this affected other people and it was just bad strategy by Microsoft.
 
-My first attempts worked but they weren’t perfect. My code was okay but the phones didn’t want to play nice with my hand scripted tab menus that had their widths set at 33, 33 and 34% in CSS. Nothing was really respsonsive and I’m not a designer. I found jQuery and thought I was onto something big. jQuery, JavaScript, HTML, CSS — yes, these were made for each other!
+My first attempts worked but they weren’t perfect. My code was okay but the phones didn’t want to play nice with my hand scripted tab menus that had their widths set at 33, 33 and 34% in CSS. Nothing was really responsive and I’m not a designer. I found jQuery and thought I was onto something big. jQuery, JavaScript, HTML, CSS — yes, these were made for each other!
 
 
 jQuery Mobile 
@@ -33,7 +33,7 @@ Which is where I come to the sticking point.
 
 Working with Ionic 
 ----------------
-Ionic is the next big thing. In fact it might be the the now big thing, in hybrid app building anyway. The Ionic team have done an amazing job because it’s not just the core Ionic directives (Ionic is Angular) they’ve build, it’s the tools and the community.
+Ionic is the next big thing. In fact it might be the now big thing, in hybrid app building anyway. The Ionic team have done an amazing job because it’s not just the core Ionic directives (Ionic is Angular) they’ve build, it’s the tools and the community.
 
 Here’s a run down of what you get.
 
