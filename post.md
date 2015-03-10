@@ -160,18 +160,31 @@ There is one last issue you may encounter.
 Upon submission to iTunes Connect you’ll likely get an email saying this:
 
 >Dear developer,
+<br/>
+<br/>
 
 >We have discovered one or more issues with your recent delivery for “YourApp”. Your delivery was successful, but you may wish to correct the following issues 
-in your next delivery:  
+in your next delivery:
+<br/>
+<br/>
 
 >Missing Push Notification Entitlement — Your app appears to include API used to register with the Apple Push Notification service, but the app signature’s 
 entitlements do not include the “aps-environment” entitlement. If your app uses 
 the Apple Push Notification service, make sure your App ID is enabled for Push Notification in the Provisioning Portal, and resubmit after signing your app with a Distribution provisioning profile that includes the “aps-environment” 
-entitlement. See “Provisioning and Development” in the Local and Push Notification Programming Guide for more information. If your app does not use the Apple Push Notification service, no action is required. You may remove the API from future submissions to stop this warning. If you use a third-party framework, you may need to contact the developer for information on removing the API.  
+entitlement. 
+<br/>
+<br/>
 
->After you’ve corrected the issues, you can use Xcode or Application Loader to upload a new binary to iTunes Connect.  
+>See “Provisioning and Development” in the Local and Push Notification Programming Guide for more information. If your app does not use the Apple Push Notification service, no action is required. You may remove the API from future submissions to stop this warning. If you use a third-party framework, you may need to contact the developer for information on removing the API.  
+<br/>
 
->Regards,  
+>After you’ve corrected the issues, you can use Xcode or Application Loader to upload a new binary to iTunes Connect.
+<br/>
+<br/>
+
+>Regards,
+<br/>
+<br/>
 
 >The App Store team  
 
