@@ -127,11 +127,11 @@ In XCode go to Project->Archive. If Archive is greyed out then click on your pro
 There are a few issues you may have:
 
 1\. You get a clang error like this:
-
-`clang: error: no such file or directory: '/Users/myUserName/myApp/platforms/ios/CardsApp/Plugins/de.appplant.cordova.plugin.email-composer/APPEmailComposer.m'
+```
+clang: error: no such file or directory: '/Users/myUserName/myApp/platforms/ios/CardsApp/Plugins/de.appplant.cordova.plugin.email-composer/APPEmailComposer.m'
 clang: error: no input files
 Command /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang failed with exit code 1`
-
+```
 Lo and behold, that folder wasn’t there so XCode wasn’t lying or being awkward! To fix this I removed the iOS platform from Ionic and then re-added it.
 
 `ionic platfrom remove ios`
@@ -203,7 +203,8 @@ In XCode, go to the top left and open the project files (it’s the folder icon 
 
 In AppDeligate.m find and comment out this code:
 
-`— (void) application☹UIApplication*)application
+```
+— (void) application☹UIApplication*)application
 didRegisterForRemoteNotificationsWithDeviceToken☹NSData*)deviceToken
 {
 // re-post ( broadcast )
@@ -218,7 +219,9 @@ didFailToRegisterForRemoteNotificationsWithError☹NSError*)error
 {
 // re-post ( broadcast )
 [[NSNotificationCenter defaultCenter] postNotificationName:CDVRemoteNotificationError object:error];
-}`
+}
+
+```
 
 How do you comment out this code? With your standard
 
